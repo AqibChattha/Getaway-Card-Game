@@ -97,7 +97,7 @@ public class Card {
 	/**
 	 * [Static method] get the index of the card in deck by given suit and number.
 	 * 
-	 * @param suit of the card
+	 * @param suit   of the card
 	 * @param number of the card
 	 * 
 	 * @return the index of the card in the deck from 0-51 with -1 being the joker.
@@ -119,10 +119,9 @@ public class Card {
 	 * [Static method] get the String representation of the card with given suit and
 	 * number.
 	 * 
-	 * @param suit of the card
+	 * @param suit   of the card
 	 * @param number of the card
-	 * @return
-	 * the string representing the card
+	 * @return the string representing the card
 	 */
 	public static String getString(int suit, int number) {
 		String outputString = "";
