@@ -1,7 +1,7 @@
 /**
  * package containing the entities of the getaway game application.
  */
-package project.console.getaway.application.entity;
+package project.console.getaway.entity;
 
 /**
  * [Object class] Card class. An object class that represents "cards". It has
@@ -125,9 +125,18 @@ public class Card {
 	 */
 	public static String getString(int suit, int number) {
 		String outputString = "";
-		if (number == 0) {
+		if (suit == 1) {
+			outputString = "Spade ";
+		} else if (suit == 2) {
+			outputString = "Diamond ";
+		} else if (suit == 3) {
+			outputString = "Heart ";
+		} else if (suit == 4) {
+			outputString = "Club ";
+		} else {
 			return "joker";
-		} else if (number == 1) {
+		}
+		if (number == 1) {
 			outputString += "A";
 		} else if (number == 11) {
 			outputString += "J";
@@ -138,19 +147,6 @@ public class Card {
 		} else {
 			outputString += number;
 		}
-		outputString += " of ";
-		if (suit == 1) {
-			outputString = "Spade";
-		} else if (suit == 2) {
-			outputString = "Diamond";
-		} else if (suit == 3) {
-			outputString = "Heart";
-		} else if (suit == 4) {
-			outputString = "Club";
-		} else {
-			return "joker";
-		}
-
 		return outputString;
 	}
 }

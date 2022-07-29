@@ -1,7 +1,7 @@
 /**
  * package containing the entities of the getaway game application.
  */
-package project.console.getaway.application.entity;
+package project.console.getaway.entity;
 
 import java.util.ArrayList;
 import java.util.Collections;

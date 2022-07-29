@@ -1,3 +1,5 @@
+import project.console.getaway.Getaway;
+
 /**
  * Driver class is the main class, it contain the main function.
  * 
@@ -12,7 +14,7 @@ public class Driver {
 	 * @param args an array of arguments
 	 */
 	public static void main(String[] args) {
-		
+		Getaway.loadGame();
 	}
 
 }
