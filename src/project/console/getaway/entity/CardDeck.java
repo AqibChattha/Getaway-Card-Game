@@ -33,7 +33,7 @@ public class CardDeck {
 	/**
 	 * Create a full deck of cards by adding all the cards to the list.
 	 */
-	private void createFullDeck() {
+	public void createFullDeck() {
 		list = new ArrayList<Card>();
 		for (int i = 1; i <= 4; i++) {
 			for (int j = 1; j <= 13; j++) {
