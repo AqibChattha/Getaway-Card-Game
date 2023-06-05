@@ -1,4 +1,4 @@
-# Getaway-Bhabhi-Card-Game
+# Getaway-Card-Game
 ### Introduction
 Getaway is played in the Punjab region of India and Pakistan and also in Bangladesh. The aim of the game is to "get away" by playing all of one's cards. The last remaining player who fails to get away and is left holding cards is the loser.
 
